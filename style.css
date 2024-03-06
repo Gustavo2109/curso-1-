@@ -39,7 +39,7 @@ body {
 
 }
 
-.botao {
+.botoes {
     font-family: 'chakra petch' sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
