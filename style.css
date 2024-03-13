@@ -22,7 +22,7 @@ body {
     justify-content: center;
     align-items: center;
     max-width: 1200px;
-    width: 100;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -64,9 +64,14 @@ body {
     display: block;
 }
 
+.ativo {
+    background-color: var(--botao-ativo);
+    border-bottom: 4px solid var(--verde);
+
+}
+
 @media screen and (min-width: 768px) {
-    .botoes 
-    {
+    .botoes {
         display: flex;
     }
 
