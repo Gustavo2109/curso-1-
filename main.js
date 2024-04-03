@@ -6,7 +6,7 @@ for (let i = 0; i < botoes.length; i++) {//loop que executa enquanto i<quantidad
 
         for (let j = 0; j < botoes.length; j++) { //logo que executa j<quantidade de botoes
             botoes[j].classList.remove("ativo");//remove a palavra ativo da classe.
-            textos[j].classList.remove("ativo")
+            textos[j].classList.remove("ativo");
         }
         botoes[i].classList.add("ativo");//adiciona a palavra ativo da classe.
         textos[i].classList.add("ativo");
@@ -15,10 +15,10 @@ for (let i = 0; i < botoes.length; i++) {//loop que executa enquanto i<quantidad
 }
 
 const contadores = document.querySelectorAll(".contador");
-const tempoObjetivo1 = new Date("2024-10-05T00:00:00")
-const tempoObjetivo2 = new Date("2024-12-05T00:00:00")
-const tempoObjetivo3 = new Date("2024-10-30T00:00:00")
-const tempoObjetivo4 = new Date("2024-10-01T00:00:00")
+const tempoObjetivo1 = new Date("2024-10-05T00:00:00");
+const tempoObjetivo2 = new Date("2024-12-05T00:00:00");
+const tempoObjetivo3 = new Date("2024-10-30T00:00:00");
+const tempoObjetivo4 = new Date("2024-10-01T00:00:00");
 
 const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
 
