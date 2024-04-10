@@ -8,6 +8,7 @@ for (let i = 0; i < botoes.length; i++) {//loop que executa enquanto i<quantidad
             botoes[j].classList.remove("ativo");//remove a palavra ativo da classe.
             textos[j].classList.remove("ativo");
         }
+        
         botoes[i].classList.add("ativo");//adiciona a palavra ativo da classe.
         textos[i].classList.add("ativo");
     }
