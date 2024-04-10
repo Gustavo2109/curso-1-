@@ -54,7 +54,7 @@ for (let i=0; i<contadores.length;i++){
 
 function comecacronometro() {
 atualizaCronometro();
-setInterval(atualizacronometro, 1000);
+setInterval(atualizaCronometro, 1000);
 
 }
 
